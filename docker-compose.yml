@@ -16,7 +16,7 @@ services:
             - logs:/app/writable/logs
         environment:
             - CI_ENVIRONMENT=production
-            - ALLOWED_HOSTNAMES=https://172.31.0.50:5004
+            - ALLOWED_HOSTNAMES=172.31.0.50:5004
             - FORCE_HTTPS=false
             - PHP_TIMEZONE=Asia/Manila
             - MYSQL_USERNAME=admin
