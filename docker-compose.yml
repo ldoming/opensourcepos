@@ -2,7 +2,7 @@ include:
     - docker/docker-mysql.yml
 
 services:
-    ospos:
+    ospos-app:
         image: jekkos/opensourcepos:master
         restart: always
         depends_on:
